@@ -1,0 +1,62 @@
+.value-box {
+  display: flex;
+}
+.form__section {
+  display: flex;
+  align-items: center;
+}
+.form__firstFraction {
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  min-width: 300px;
+  justify-content: center;
+}
+
+.fraction__operator {
+  padding: 0rem 0.5rem;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 0.5rem;
+}
+.fraction__mediator {
+  font-size: 1.5rem;
+  padding: 0rem 1rem;
+  padding-top: 0.5rem;
+}
+.calc {
+  background-color: aqua;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0rem;
+  border-radius: 5px;
+}
+.fracCalc__container {
+  display: flex;
+  align-items: center;
+}
+.block {
+  background-color: red;
+  padding: 5rem;
+}
+.image__box {
+  display: flex;
+  max-width: fit-content;
+}
+.main__box {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  /* padding: 1rem; */
+  gap: 1rem;
+}
+.color__box {
+  background-color: rgb(33, 82, 112);
+  width: 100%;
+  height: 100%;
+}
+.red {
+    background-color: red;
+}
